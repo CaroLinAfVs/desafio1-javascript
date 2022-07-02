@@ -1,0 +1,63 @@
+
+.conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    border: solid 1px;
+    width: 50%;
+    background-color: beige;
+    align-items: center;
+}
+.card img{
+    height: 560px;
+    width: 100%;
+}
+.card-title h5{
+    font-size: 25px;
+    margin-top: 15px;
+}
+.usuario{
+    text-align: center;
+}
+.usuario input{
+    font-size: 20px;
+    margin-bottom: 4px;
+    display: flex;
+}
+.footer button{
+    font-size: 17px;
+    margin-bottom: 8px;
+}
+.right-side{
+    background-color: orange;
+    border: 1px solid;
+    width: 20%;
+    height: 180px;
+    margin-left: 20px;
+}
+.canti p{
+    padding-left: 10px;
+}
+.end p{
+    padding-left: 10px;
+}
+
+.colores {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+  }
+  
+  .colores p {
+    padding-right: 10px;
+  }
+  
+  .muestra-color {
+    width: 25px;
+    height: 25px;
+    border-radius: 15px;
+  }
